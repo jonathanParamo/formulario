@@ -73,7 +73,7 @@
             </div>
           </div>
 
-           <div class="row mt-3">
+          <div class="row mt-3">
             <div class="col">
               <div class="row align-items-center">
                 <div class="col-auto">
@@ -91,62 +91,69 @@
             <div class="col">
               <div class="row g-3">
                 <div class="col-auto">
-                  <label for="direccion" class="col-form-label">direccion</label>
+                  <label for="direccion" class="col-form-label">Direccion</label>
                 </div>
                 <div class="col-auto">
                   <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon1"></span>
                     <input type="number" class="form-control" aria-label="direccion" aria-describedby="basic-addon1">
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="row mt-3">
-          <div class="col">
-            <div class="row align-items-center">
-              <div class="col-auto">
-                <label for="ciudad" class="col-form-label">Ciudad</label>
+          <div class="row mt-3">
+            <div class="col">
+              <div class="row align-items-center">
+                <div class="col-auto">
+                  <label for="ciudad" class="col-form-label">Ciudad</label>
+                </div>
+                <div class="col-auto">
+                  <div class="input-group mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Seleccione una opcion ...</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
               </div>
-              <div class="col-auto">
-                <div class="input-group mb-3">
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>Seleccione una opcion ...</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
+            </div>
+
+            <div class="col">
+              <div class="row g-3">
+                <div class="col-auto">
+                  <label for="comuna" class="col-form-label">Comuna</label>
+                </div>
+                <div class="col-auto">
+                  <div class="input-group mb-3">
+                    <div class="col-auto">
+                      <div class="input-group mb-3">
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Seleccione una opcion ...</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="col">
-            <div class="row g-3">
-              <div class="col-auto">
-                <label for="comuna" class="col-form-label">Comuna</label>
-              </div>
-              <div class="col-auto">
-                <div class="input-group mb-3">
-                  <span class="input-group-text" id="basic-addon1"></span>
-                  <input type="select" class="form-control" aria-label="comuna" aria-describedby="basic-addon1">
-                </div>
-              </div>
+          <div class="input-group mb-3 d-flex-rigth">
+            <div class="p align-items-center m-2">Auto</div>
+            <input type="text" class="form-control" placeholder="xxxx-15" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="btn-toolbar text-xs-right" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2" role="group" aria-label="First group">
+              <button type="button" class="btn btn-primary">Añadir</button>
             </div>
-          </div>
-        </div>
-        <div class="input-group mb-3 d-flex-rigth">
-          <span class="input-group-text" id="basic-addon1">Auto</span>
-          <input type="text" class="form-control" placeholder="xxxx-15" aria-label="Username" aria-describedby="basic-addon1">
-        </div>
-        <div class="btn-toolbar text-xs-right" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group me-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-primary">Añadir</button>
-          </div>
-          <div class="btn-group me-2" role="group" aria-label="Second group">
-            <button type="button" class="btn btn-secondary">Cancelar</button>
+            <div class="btn-group me-2" role="group" aria-label="Second group">
+              <button type="button" class="btn btn-secondary">Cancelar</button>
+            </div>
           </div>
         </div>
       </form>
