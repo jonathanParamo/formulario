@@ -16,153 +16,142 @@
   <div class="container">
 
     <p class="h2 text-center mt-4">Ingreso de registro</p>
-      <form class="row g-3 needs-validation mt-5px" novalidate>
-        <div class="card mt-5">
-          <div class="card-header">
-            Datos de instructor
-          </div>
-          <div class="div col-12 sm-col-6 mt-3">
-            <div class="row">
-              <div class="col-6 text-end">
-                <div class="row">
-                  <div class="col-4">
-                    <label for="RUN" class="col-form-label text-right">RUN</label>
-                  </div>
-                  <div class="col-6">
-                    <input aling="rigth" type="password" id="RUN" class="form-control" aria-describedby="passwordHelpInline">
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="row text-end">
-                  <div class="col-4 sm-col-12">
-                    <label for="fullName" class="col-form-label font-zise-10">Nombre completo</label>
-                  </div>
-                  <div class="col-6">
-                    <td><input aling="rigth" type="password" id="fullName" class="form-control" aria-describedby="passwordHelpInline"></td>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <form class="row g-3 needs-validation mt-5px" novalidate>
+      <div class="card mt-5">
+        <div class="card-header">
+          Datos de instructor
+        </div>
+        <div class="card-body">
 
-              <div class="row mt-3">
-                <div class="col-6 text-end">
-                  <div class="row">
-                    <div class="col-4">
-                      <label for="date" class="col-form-label">Fecha de nacimiento</label>
-                    </div>
-                    <div class="col-6">
-                      <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">#</span>
-                        <input type="date" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="row text-end">
-                    <div class="col-4 sm-col-12">
-                      <label for="email" class="col-form-label">Email</label>
-                    </div>
-                    <div class="col-6">
-                      <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">@</span>
-                        <input type="double" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="row">
-                  <div class="col-6 text-end">
-                    <div class="row">
-                      <div class="col-4">
-                    <label for="number" class="col-form-label">telefono</label>
-                  </div>
-                  <div class="col-6">
-                    <div class="input-group mb-3">
-                      <span class="input-group-text" id="basic-addon1">12</span>
-                      <input type="number" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="row text-end">
-                  <div class="col-4">
-                    <label for="direccion" class="col-form-label">Direccion </label>
-                  </div>
-                  <div class="col-6">
-                    <div class="input-group">
-                      <input type="number" class="form-control" aria-label="direccion" aria-describedby="basic-addon1">
-                    </div>
-                  </div>
-                </div>
-              </div>
-
+          <div class="row">
+            <div class="col-12 col-md-6 mb-2">
               <div class="row">
-                <div class="col-6 text-end">
-                  <div class="row">
-                    <div class="col-4">
-                    <label for="ciudad" class="col-form-label">Ciudad</label>
-                  </div>
-                  <div class="col-6">
-                    <div class="input-group">
-                      <select class="form-select" aria-label="Default select example">
-                        <option selected>Seleccione una opcion ...</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
-                    </div>
+                <div class="col-4 text-end">
+                  <label for="RUN" class="col-form-label">RUN</label>
+                </div>
+                <div class="col-6">
+                  <input type="text" id="RUN" class="form-control" aria-describedby="passwordHelpInline">
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="row">
+                <div class="col-4 sm-col-12 text-end">
+                  <label for="fullName" class="col-form-label">Nombre completo</label>
+                </div>
+                <div class="col-6">
+                  <td><input aling="rigth" type="text" id="fullName" class="form-control" aria-describedby="passwordHelpInline"></td>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-6 mb-2">
+              <div class="row">
+                <div class="col-4 text-end">
+                  <label for="fechaDeNacimiento" class="col-form-label">Fecha de nacimiento</label>
+                </div>
+                <div class="col-6">
+                  <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1">#</span>
+                    <input type="date" class="form-control" id="fechaDeNacimiento" aria-label="date" aria-describedby="basic-addon1">
                   </div>
                 </div>
               </div>
-
-              <div class="col-6">
-                <div class="row text-end">
-                  <div class="col-4 sm-col-12">
-                    <label for="comuna" class="col-form-label">Comuna</label>
-                  </div>
-                  <div class="col-6">
-                    <div class="input-group mb-3">
-                      <div class="col-auto">
-                        <div class="input-group mb-3">
-                          <select class="form-select" aria-label="Default select example">
-                            <option selected>Seleccione una opcion ...</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                          </select>
-                        </div>
-                      </div>
-                    </div>
+            </div>
+            <div class="col-12 col-md-6 mb-2">
+              <div class="row ">
+                <div class="col-4 sm-col-12 text-end">
+                  <label for="email" class="col-form-label">Email</label>
+                </div>
+                <div class="col-6">
+                  <div class="input-group ">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="mail" class="form-control" id="email" aria-label="email" aria-describedby="basic-addon1">
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-12 input-group mb-3">
-            <div class="p align-items-center m-2">Auto</div>
-            <input type="text" class="form-control" placeholder="xxxx-15" aria-label="Username" aria-describedby="basic-addon1">
-          </div>
-          <div class="row text-end">
-            <div class="col-12 text-end">
-              <div class="btn-toolbar col-12" role="toolbar" aria-label="Toolbar with button groups">
-                <div class="btn-group me-2 col-1 text-end" role="group" aria-label="First group">
-                  <button type="button" class="btn btn-primary">Añadir</button>
+
+          <div class="row">
+            <div class="col-12 col-md-6 mb-2">
+              <div class="row">
+                <div class="col-4 text-end">
+                  <label for="telefono" class="col-form-label">telefono</label>
                 </div>
-                <div class="btn-group me-2 col-1 text-end" role="group" aria-label="Second group">
-                  <button type="button" class="btn btn-secondary">Cancelar</button>
+                <div class="col-6">
+                  <div class="input-group ">
+                    <span class="input-group-text" id="basic-addon1">12</span>
+                    <input type="number" class="form-control" id="telefono" aria-label="Telefono" aria-describedby="basic-addon1">
+                  </div>
                 </div>
               </div>
+            </div>
+            <div class="col-12 col-md-6 mb-2">
+              <div class="row">
+                <div class="col-4 text-end">
+                  <label for="direccion" class="col-form-label">Direccion</label>
+                </div>
+                <div class="col-6">
+                  <input type="text" class="form-control" id="direccion" aria-label="direccion" aria-describedby="basic-addon1">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-6 mb-2">
+              <div class="row">
+                <div class="col-4 text-end">
+                  <label for="ciudad" class="col-form-label">Ciudad</label>
+                </div>
+                <div class="col-6">
+                  <div class="input-group">
+                    <select class="form-select" id="ciudad" aria-label="Default select example">
+                      <option selected>Seleccione una opcion ...</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 mb-2">
+              <div class="row">
+                <div class="col-4 text-end">
+                  <label for="comuna" class="col-form-label">Comuna</label>
+                </div>
+                <div class="col-6">
+                  <div class="input-group">
+                    <select class="form-select" id="comuna" aria-label="Default select example">
+                      <option selected>Seleccione una opcion ...</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-4 col-md-2 text-end">
+              Auto
+            </div>
+            <div class="col-6 col-md-9 ">
+              <input type="text" class="form-control" id="auto" placeholder="xxxx-15" aria-label="auto" aria-describedby="basic-addon1">
+            </div>
+          </div>
+
+          <div class="row mt-4">
+            <div class="col-10 col-md-11 text-end">
+              <button type="button" class="btn btn-primary">Añadir</button>
+              <button type="button" class="btn btn-secondary">Cancelar</button>
             </div>
           </div>
         </div>
-      </form>
+      </div>
+    </form>
   </div>
-  
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
   crossorigin="anonymous"></script>
